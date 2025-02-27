@@ -1,1 +1,6 @@
+ function sayHi() {
+
+            alert("Hi!");    
+
+    }
 
