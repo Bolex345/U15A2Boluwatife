@@ -1,0 +1,164 @@
+</style>
+</head>
+<body>
+<!-- Navigation Bar -->
+
+<nav>
+  <li style="display: inline; margin: 0 5px; style="color: white;"> 
+<a href="index.html"> Home </a> <!-- Navigation link to Home page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="About page.html"> About </a> <!-- Navigation link to About page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Date & fees.html"> Date & fees </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Membership form.html"> Membership Form </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Events & Project.html"> Events & Project </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Slovak School.html"> Slovak School</a> <!-- Navigation link to Contact page -->
+
+</nav>
+   
+<main>
+<html>
+<head>
+<style>
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Slovenské Vzdelávacie Centrum - South Manchester</h1>
+    <p>About us</p>
+</header>
+
+<div class="container">
+    <!-- Term Dates Section -->
+    <section>
+        <h2>Who We Are</h2>
+        <div class="card">
+            <p>Slovenské Vzdelávacie Centrum – South Manchester is a registered charity dedicated to preserving and promoting Slovak language and culture. We provide Slovak language education and organize cultural and community activities to help Slovak-speaking families maintain their heritage while living abroad.<p>
+
+			<P>While our primary focus is on supporting Slovak-speaking children and families, we warmly welcome anyone interested in learning the Slovak language and engaging with our traditions. Beyond our Saturday school, we offer various workshops, events, and social activities where individuals of all ages can connect, learn, and take part in our cultural community.<p>
+    </section>
+	
+	<section>
+        <h2>Our Mission</h2>
+		 <div class="card">
+            <p>Our mission is to ensure that children growing up abroad don’t lose their connection to their roots and to create a place where Slovak culture thrives, even far from home. We believe that language is more than just words; it carries identity, history, and a sense of belonging.<P>
+			<p>We aim to bridge the gap between the UK and Slovak education systems, ensuring that children who may one day return to Slovakia can transition smoothly and supporting families navigating life between two countries.</p> 
+    </section>
+	
+	<section>
+        <h2>Our Journey</h2>
+		<div class="card">
+        <p>Slovenské Vzdelávacie Centrum – South Manchester was founded by a group of dedicated teachers with the vision of establishing a Slovak educational and cultural centre. We became a registered charity on 9th September 2024 and officially launched on 15th September 2024, celebrated with the Faculty of Education from Univerzita Mateja Bela and the Association of Slovak Schools and Community Centres in the UK.</p>
+    </section>
+	 
+	<section>
+		<div class="card">
+        <h2>What We Offer & How We Help</h2>
+        <h3>What We Offer</h3>
+        <p>We run Saturday Slovak language lessons for children and adults, as well as cultural and community activities:</p>
+        <ul>
+            <li>Morning Classes: 10:00 – 12:00 at The Firs Primary School</li>
+            <li>Afternoon Classes: 14:00 – 16:00 at Sale High School</li>
+        </ul>
+        <p>Our programs include:</p>
+        <ul>
+            <li>Slovak Language Lessons</li>
+            <li>Adapted Teaching Methods</li>
+            <li>Cultural Events & Workshops</li>
+            <li>Community & Social Gatherings</li>
+            <li>Opportunities for Adults</li>
+        </ul>
+
+        <h3>How We Help</h3>
+        <p>We offer practical support for Slovak-speaking families navigating life in the UK, including guidance for children’s academic needs and transitioning back to Slovakia.</p>
+        <ul>
+            <li>Support for 'Komisionálne Skúšky'</li>
+            <li>Guidance for Families Returning to Slovakia</li>
+            <li>Bridging the UK & Slovak Education Systems</li>
+            <li>Legal & Administrative Advice</li>
+            <li>English Language Support</li>
+        </ul>
+    </section> 
+	
+	<section>
+		<div class="card">
+		<h2>Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+
+                <h3>Mgr. Mária Mušutová</h3>
+                <p>Co-Founder | Chair of the Charity</p>
+                <p>"Slovenské Vzdelávacie Centrum - South Manchester allows us to unite the Slovak community, share educational and cultural opportunities, and build lifelong friendships with those who cherish our traditions."</p>
+            </div>
+            <div class="team-member">
+              
+                <h3>Mgr. Denisa Amini</h3>
+                <p>Co-Founder | Trustee</p>
+                <p>"I believe that Slovenské Vzdelávacie Centrum - South Manchester is more than just a school—it's a place where we can connect, support one another, and celebrate the traditions that are important for us and our children."</p>
+            </div>
+            <div class="team-member">
+            
+                <h3>Ingrid Harandza</h3>
+                <p>Co-Founder | Trustee</p>
+                <p>"I am excited that Slovenské Vzdelávacie Centrum - South Manchester allows me to combine my two passions—working with children and preserving our Slovak heritage—into a meaningful and supportive space for our community."</p>
+            </div>
+        </div>
+    </section>
+	
+	<section>
+		<div class="card">
+        <h2>Meet Us in Person!</h2>
+        <p>We look forward to welcoming you to Slovenské Vzdelávacie Centrum – South Manchester. Our team is here to support you and your children on your bilingual journey, helping you stay connected to Slovak language, education, and traditions.</p>
+    </section>
+
+    <section class="donate">
+		<div class="card">
+        <h2>Support Us</h2>
+        <p>As a registered charity, we rely on the generosity of our community to continue providing high-quality education, cultural programs, and support services.</p>
+        <h3>Make a Donation</h3>
+        <p>Your contribution helps us provide affordable Slovak language classes, cultural events, and community activities.</p>
+        <p>Account Number: 19215268 | Sort Code: 30-54-66</p>
+	
+	        <h3>Become a Volunteer</h3>
+        <p>We are always looking for enthusiastic volunteers to help with teaching, event coordination, fundraising, and more. Volunteering with us is a rewarding experience!</p>
+    </section>
+
+    <section>
+
+         <!-- Image Gallery Section -->
+<div class="image-gallery">
+<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\homepage image1.jpg" alt="Slovak Culture">
+<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\Slovak School image1.jpg" alt="Language Learning">
+<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\Slovak School image3.jpg" alt="Community Event">
+</div> 
+</section>  
+        
+<body>
+    <button class="back-button" onclick="history.back()">
+        <svg viewBox="0 0 24 24">
+            <path d="M15 18l-6-6 6-6"></path>
+        </svg>
+        Go Back
+    </button>
+</body>
+
+</html>    
+    
+
+</body>
+</html>
+
+	
+</div>
+<!-- Footer -->
+<div class="footer">
+    <p>2025 Slovak Charity.All right reseved</p>
+</div>
+
+</body>
+</html>
