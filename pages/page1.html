@@ -1,1 +1,100 @@
+  </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <li style="display: inline; margin: 0 5px; style="color: white;"> 
+<a href="index.html"> Home </a> <!-- Navigation link to Home page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="About page.html"> About </a> <!-- Navigation link to About page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Date & fees.html"> Date & fees </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Membership form.html"> Membership Form </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Events & Project.html"> Events & Project </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Slovak School.html"> Slovak School</a> <!-- Navigation link to Contact page -->
+</nav>
+
+    <!-- Header Section -->
+    <header>
+        <img src="path/to/logo.png" alt="Slovak Charity Logo">
+        <h1>Welcome to Slovak Charity</h1>
+    </header>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\homepage image1.jpg" style="width:100%">
+            <div class="text">Caption One</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image5.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and Previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots for slideshow -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Main Content -->
+    <section>
+        <h2>Our Mission</h2>
+        <p>We unite and empower the Slovak community through education and cultural events.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: info@slovakcharity.org | Follow us on social media</p>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
 
