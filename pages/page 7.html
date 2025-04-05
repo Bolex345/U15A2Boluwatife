@@ -1,0 +1,134 @@
+  </style>
+</head>
+<nav>
+ <li style="display: inline; margin: 0 5px; style="color: white;"> 
+<a href="index.html"> Home </a> <!-- Navigation link to Home page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="About page.html"> About </a> <!-- Navigation link to About page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Date & fees.html"> Date & fees </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Membership form.html"> Membership Form </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Events & Project.html"> Events & Project </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Slovak School.html"> Slovak School</a> <!-- Navigation link to Contact page -->
+</nav>
+   
+
+<!-- Navigation Bar -->
+<nav>
+   <li style="display: inline; margin: 0 5px; style="color: white;"> 
+<a href="index.html"> Home </a> <!-- Navigation link to Home page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="About page.html"> About </a> <!-- Navigation link to About page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Date & fees.html"> Date & fees </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Membership form.html"> Membership Form </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Events & Project.html"> Events & Project </a> <!-- Navigation link to Contact page -->
+ <li style="display: inline; margin: 0 5px;">
+<a href="Slovak School.html"> Slovak School</a> <!-- Navigation link to Contact page -->
+</nav>
+   
+</nav>
+
+<header>
+    <h1>Registration Forms</h1>
+</header>
+
+<main>
+    <!-- School Registration Form Section -->
+    <section class="section">
+        <h2>Slovak School Registration</h2>
+        <div class="card">
+            <form id="schoolForm">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                
+                <label for="languageBackground">Language Background:</label>
+                <input type="text" id="languageBackground" name="languageBackground">
+                
+                <label for="parentName">Parent/Guardian Name:</label>
+                <input type="text" id="parentName" name="parentName" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Volunteer Registration Form Section -->
+    <section class="section">
+        <h2>Volunteer Registration</h2>
+        <div class="card">
+            <form id="volunteerForm">
+                <label for="volunteerName">Full Name:</label>
+                <input type="text" id="volunteerName" name="volunteerName" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+                
+                <label for="role">Preferred Role:</label>
+                <select id="role" name="role">
+                    <option value="teaching">Teaching Assistant</option>
+                    <option value="event">Event Coordinator</option>
+                    <option value="fundraising">Fundraising & Sponsorship</option>
+                    <option value="social">Social Media & Marketing</option>
+                    <option value="general">General Support</option>
+                </select>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Consent Form Section -->
+    <section class="section">
+        <h2>Consent Form</h2>
+        <form id="consentForm">
+            <label for="consentName">Full Name:</label>
+            <input type="text" id="consentName" name="consentName" required>
+            
+            <label for="emergencyContact">Emergency Contact:</label>
+            <input type="tel" id="emergencyContact" name="emergencyContact" required>
+            
+            <label for="medical">Medical Conditions / Special Educational Needs:</label>
+            <textarea id="medical" name="medical"></textarea>
+            
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="photoConsent"> I give permission for photos/videos to be taken.</label>
+                <label><input type="checkbox" name="dataConsent" required> I consent to my data being collected and stored.</label>
+                <label><input type="checkbox" name="tripConsent"> I give permission for off-site activities.</label>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<!-- Back Button -->
+<section>
+    <button class="back-button" onclick="history.back()">
+        <svg viewBox="0 0 24 24">
+            <path d="M15 18l-6-6 6-6"></path>
+        </svg>
+        Go Back
+    </button>
+</section>
+
+<footer>
+    <p>&copy; 2025 Slovenské Vzdelávacie Centrum – South Manchester. All rights reserved.</p>
+</footer>
