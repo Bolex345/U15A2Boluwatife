@@ -1,10 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us - Slovenské Vzdelávacie Centrum</title>
+    <style>
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F2;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #004aad;
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+    border-bottom: 5px solid #d32f2f;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #004aad;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #d32f2f;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #eb1d1d;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #004aad;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+td {
+    font-size: 16px;
+}
+
+/* Lists */
+.fees-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fees-list li {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #004aad;
+}
+
+.note {
+    font-style: italic;
+    color: #888;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    border-left: 5px solid #d32f2f;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Back Button */
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #AD261B;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+}
+
+.back-button svg {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.back-button:hover {
+    background-color: #004aad;
+    transform: scale(1.05);
+}
+
+.back-button:active {
+    background-color: #003377;
+    transform: scale(1);
+}
+
+/* Footer */
+footer {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+
+       
+	
+		
 </style>
 </head>
 <body>
-<!-- Navigation Bar -->
 
-<nav>
-  <li style="display: inline; margin: 0 5px; style="color: white;"> 
+    <!-- Navigation -->
+    <nav>
+        <li style="display: inline; margin: 0 5px; style="color: white;"> 
 <a href="index.html"> Home </a> <!-- Navigation link to Home page -->
  <li style="display: inline; margin: 0 5px;">
 <a href="About page.html"> About </a> <!-- Navigation link to About page -->
@@ -16,18 +298,11 @@
 <a href="Events & Project.html"> Events & Project </a> <!-- Navigation link to Contact page -->
  <li style="display: inline; margin: 0 5px;">
 <a href="Slovak School.html"> Slovak School</a> <!-- Navigation link to Contact page -->
-
 </nav>
+
+
    
-<main>
-<html>
-<head>
-<style>
-
-    </style>
-</head>
-<body>
-
+  
 <header>
     <h1>Slovenské Vzdelávacie Centrum - South Manchester</h1>
     <p>About us</p>
@@ -79,7 +354,8 @@
         <ul>
             <li>Support for 'Komisionálne Skúšky'</li>
             <li>Guidance for Families Returning to Slovakia</li>
-            <li>Bridging the UK & Slovak Education Systems</li>
+            <li>Bridging the -*-
+			UK & Slovak Education Systems</li>
             <li>Legal & Administrative Advice</li>
             <li>English Language Support</li>
         </ul>
@@ -132,9 +408,9 @@
 
          <!-- Image Gallery Section -->
 <div class="image-gallery">
-<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\homepage image1.jpg" alt="Slovak Culture">
-<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\Slovak School image1.jpg" alt="Language Learning">
-<img src="C:\Users\boluw\OneDrive - The Manchester College\Unit 15\Client Requirements - text\Slovak School image3.jpg" alt="Community Event">
+<img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\homepage image1.jpg" alt="Slovak Culture">
+<img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\Slovak School image1.jpg" alt="Language Learning">
+<img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\Slovak School image3.jpg" alt="Community Event">
 </div> 
 </section>  
         
@@ -156,9 +432,50 @@
 	
 </div>
 <!-- Footer -->
-<div class="footer">
-    <p>2025 Slovak Charity.All right reseved</p>
-</div>
+<footer class="site-footer" style="background-color: #004aad; padding: 40px 20px; font-family: Arial, sans-serif; color: white;">
+  <div class="footer-content" style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: 0 auto;">
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+       <h4 style="color: #ffdd57;">Here to help</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: white; text-decoration: none;">My Account</a></li>
+        <li><a href="Membership form.html" style="color: white; text-decoration: none;">Donate</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Help & FAQs</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Product Recall</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Privacy Centre</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">About</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#Who-We-Are" style="color: white; text-decoration: none;">Who we are</a></li>
+        <li><a href="#Our-Mission" style="color: white; text-decoration: none;">Our mission</a></li>
+        <li><a href="#our-team" style="color: white; text-decoration: none;">Our team</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">Ways to Support</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="Membership form.html#registration-forms" style="color: white; text-decoration: none;">Membership</a></li>
+        <li><a href="Registration forms.html" style="color: white; text-decoration: none;">Donate</a></li>
+        <li><a href="Event & Project.html" style="color: white; text-decoration: none;">Events</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">Contact us</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: white; text-decoration: none;">Email</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Phone</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Visit us</a></li>
+      </ul>
+    </div>
+  </div>
 
-</body>
-</html>
+  <div class="social-icons" style="text-align: center; margin-top: 20px;">
+    <a href="#" style="margin: 0 10px;"><img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\f_logo_RGB-Blue_1024.png" alt="Facebook" width="30"></a>
+    <a href="#" style="margin: 0 10px;"><img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\instagram-app-icon-instagram-logos-brand-17.png" alt="Instagram" width="30"></a>
+  </div>
+
+    <p>&copy; 2025 Slovenské Vzdelávacie Centrum. All rights reserved</p>
+  </div>
+</footer> 
