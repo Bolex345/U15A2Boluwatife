@@ -1,4 +1,222 @@
-  </style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slovak Charity</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #eb1d1d;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #004aad;
+        }
+
+        /* Header */
+        header {
+            background: #004aad; /* Blue */ 
+            color: white;
+            padding: 20px;
+            margin-top: 30px; /* Adjust for fixed navigation */
+            text-align: center;
+			border-bottom: 5px solid #d32f2f; /* Red */
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header img {
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+
+        /* Slideshow Styles */
+        .slideshow-container {
+            max-width: 300px;
+            position: relative;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            user-select: none;
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .text {
+            color: #fff;
+            font-size: 18px;
+            padding: 10px;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 5px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Main Section Styles */
+        section {
+            padding: 40px;
+            background-color: white;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #333;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #666;
+        }
+		}
+		footer {
+            background-color:  #F2F2F2;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+		
+
+    </style>
 </head>
 
 <body>
@@ -20,7 +238,7 @@
 
     <!-- Header Section -->
     <header>
-        <img src="path/to/logo.png" alt="Slovak Charity Logo">
+        <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\images\Black Camera Icon Photography Logo (1)   2.png" alt="Slovak Charity Logo">
         <h1>Welcome to Slovak Charity</h1>
     </header>
 
@@ -28,7 +246,7 @@
     <div class="slideshow-container">
         <!-- Slides -->
         <div class="mySlides fade">
-            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\homepage image1.jpg" style="width:100%">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image1.jpg" style="width:100%">
             <div class="text">Caption One</div>
         </div>
         <div class="mySlides fade">
@@ -36,8 +254,20 @@
             <div class="text">Caption Two</div>
         </div>
         <div class="mySlides fade">
-            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image4.jpg" style="width:100%">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image3.jpg"style="width:100%">
             <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\events image2.jpg" style="width:100%">
+            <div class="text">Caption Four</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\homepage image1 another.jpg" style="width:100%">
+            <div class="text">Caption Five</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\Slovak School image3.jpg" style="width:100%">
+            <div class="text">Caption Six</div>
         </div>
 
         <!-- Next and Previous buttons -->
@@ -45,12 +275,6 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
-    <!-- Dots for slideshow -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
 
     <!-- Main Content -->
     <section>
@@ -59,9 +283,53 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>Contact us: info@slovakcharity.org | Follow us on social media</p>
-    </footer>
+<footer class="site-footer" style="background-color: #004aad; padding: 40px 20px; font-family: Arial, sans-serif; color: white;">
+  <div class="footer-content" style="display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: 0 auto;">
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+       <h4 style="color: #ffdd57;">Here to help</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: white; text-decoration: none;">My Account</a></li>
+        <li><a href="Membership form.html" style="color: white; text-decoration: none;">Donate</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Help & FAQs</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Product Recall</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Privacy Centre</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">About</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="Who We Are" style="color: white; text-decoration: none;">Who we are</a></li>
+        <li><a href="Our Mission.html" style="color: white; text-decoration: none;">Our mission</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Our team</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">Ways to Save</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="Membership form.html" style="color: white; text-decoration: none;">Membership</a></li>
+        <li><a href="Registration forms.html" style="color: white; text-decoration: none;">Donate</a></li>
+        <li><a href="Event & Project.html" style="color: white; text-decoration: none;">Events</a></li>
+      </ul>
+    </div>
+    <div class="footer-column" style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h4 style="color: #ffdd57;">Contact us</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: white; text-decoration: none;">Email</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Phone</a></li>
+        <li><a href="#" style="color: white; text-decoration: none;">Visit us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="social-icons" style="text-align: center; margin-top: 20px;">
+    <a href="#" style="margin: 0 10px;"><img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\f_logo_RGB-Blue_1024.png" alt="Facebook" width="30"></a>
+    <a href="#" style="margin: 0 10px;"><img src="C:\Users\1533255\OneDrive - The Manchester College\Unit 15\Wedsite\Client Requirements - text\instagram-app-icon-instagram-logos-brand-17.png" alt="Instagram" width="30"></a>
+  </div>
+
+    <p>&copy; 2025 Slovenské Vzdelávacie Centrum. All rights reserved</p>
+  </div>
+</footer> 
 
     <script>
         let slideIndex = 1;
@@ -97,4 +365,3 @@
 </body>
 
 </html>
-
